@@ -51,6 +51,7 @@ For the Openfire to preserve its state across container shutdown and startup you
 # References
 
   * http://www.igniterealtime.org/projects/openfire/
+  * http://www.rogeriodacosta.com.br
 
 # Licence
 
