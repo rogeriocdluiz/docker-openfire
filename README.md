@@ -30,7 +30,7 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 
 ## Usage
 
-    docker run -ti --rm -name openfire -v /opt/docker/openfire/conf:/opt/openfire/conf -v /opt/docker/openfire/logs:/opt/openfire/logs/ -v /opt/docker/openfire/plugins:/opt/openfire/plugins -p 9090:9090/tcp -p 0.0.0.0:9091:9091/tcp -p 0.0.0.0:5222:5222/tcp -p 0.0.0.0:7777:7777/tcp  rc/openfire /bin/bash
+    docker run -ti --rm --name openfire -v /opt/docker/openfire/conf:/opt/openfire/conf -v /opt/docker/openfire/logs:/opt/openfire/logs/ -v /opt/docker/openfire/plugins:/opt/openfire/plugins -p 9090:9090/tcp -p 0.0.0.0:9091:9091/tcp -p 0.0.0.0:5222:5222/tcp -p 0.0.0.0:7777:7777/tcp  rc/openfire /bin/bash
 
 
 *Alternatively, you can use the sample [docker-compose.yml](docker-compose.yml) file to start the container using [Docker Compose](https://docs.docker.com/compose/)*
@@ -39,7 +39,7 @@ Point your browser to http://localhost:9090 and follow the setup procedure to co
 
 ### Embededdb
 
-    docker run -ti --rm -name openfire -v /opt/docker/openfire/conf:/opt/openfire/conf -v /opt/docker/openfire/logs:/opt/openfire/logs/ -v /opt/docker/openfire/plugins:/opt/openfire/plugins -v /opt/docker/openfire/embedded-db:/opt/openfire/embedded-db -p 9090:9090/tcp -p 0.0.0.0:9091:9091/tcp -p 0.0.0.0:5222:5222/tcp -p 0.0.0.0:7777:7777/tcp  rc/openfire /bin/bash
+    docker run -ti --rm --name openfire -v /opt/docker/openfire/conf:/opt/openfire/conf -v /opt/docker/openfire/logs:/opt/openfire/logs/ -v /opt/docker/openfire/plugins:/opt/openfire/plugins -v /opt/docker/openfire/embedded-db:/opt/openfire/embedded-db -p 9090:9090/tcp -p 0.0.0.0:9091:9091/tcp -p 0.0.0.0:5222:5222/tcp -p 0.0.0.0:7777:7777/tcp  rc/openfire /bin/bash
 
 
 
