@@ -26,7 +26,7 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/xxxxx/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull xxxxxx/openfire`
+2. Download [automated build](https://registry.hub.docker.com/r/rogeriocdluiz/docker-openfire/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull rogeriocdluiz/docker-openfire`
 
 ## Usage
 
